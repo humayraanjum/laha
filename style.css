@@ -1,0 +1,271 @@
+html
+{
+    scroll-behavior: smooth;
+    
+     
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    
+}
+
+
+
+#main-nav
+{
+    background-color: transparent;
+    
+}
+
+/*  brand-name   */
+.navbar-brand
+{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/*for h1 style*/
+.display-3
+{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+ p
+{
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Height of each section */
+.home-height
+{
+    height: 100vh;
+}
+
+/* 
+
+.home-height,.about-height
+{
+    height: 100vh;
+}
+
+.service-height
+{
+    height: 120vh;
+}
+.portfolio-height
+{
+    height:180vh;
+}
+.contact-height
+{
+    height:75vh;
+}
+
+
+
+*/
+
+#home
+{
+    background: url('./images/girl-in-black-bg.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+}
+
+.d-flex .btn
+{
+    margin-right: 10px;
+    background: white;
+    
+}
+
+.nav-link
+{
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+#home .btn:hover
+{
+    background-color:aqua;
+    color: black;
+}
+
+.custom-col
+{
+    margin-top: 25%;
+}
+
+i{
+    color:white;
+}
+
+.fa-caret-right 
+{
+    color: black;
+}
+
+/* about Section  */
+
+#about
+{
+    padding: 100px;
+}
+
+.display-4
+{
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    color: black;
+    padding-top: 50px;
+}
+
+.about-p p
+{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+ #about img{
+    filter: grayscale(1);
+    height: 400px;
+}
+
+#about .btn:hover
+{
+   background-color: aqua;
+   color: black;
+}
+
+
+.spacing{
+    margin-top: 10%;
+}
+
+
+/*------------Services-------------------*/
+
+#services
+{
+    padding: 50px;
+}
+.card-icon
+{
+     font-size: 3rem;
+     color: black;
+}
+
+.change-color-card:hover
+{
+    background: gray;
+    
+}
+.card-text:hover
+{
+    color: black;
+}
+
+
+
+/*  -----------portfolio------------ */
+.block
+{
+    height: .3rem;
+    width: 6rem;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+
+#portfolio
+{
+    
+    padding: 50px;
+   
+}
+
+.port-img img
+{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.experiment
+{
+    padding: 100px;
+   
+   
+}
+
+.experi-text
+{
+    padding: 50px;
+    text-align: center;
+    color:aqua;
+}
+
+
+/*--------  Contact ---------------- */
+#contact h1{
+    padding-top: 100px;
+    font-size: 3rem;
+    
+}
+#contact
+{
+    color: white;
+    text-align: center;
+    
+}
+.contact-link-bottom
+{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 10px;
+    
+}
+
+.contact-h1
+{
+    font-size: 50px;
+}
+
+.contact-p
+{
+    font-size:24px;
+    font-style: italic;
+    color: aqua;
+}
+
+#contact .btn:hover
+{
+   background:aqua;
+}
+
+.contact-info
+{
+    padding-bottom: 70px;
+}
+
+.bottom-cp p
+{
+    color: grey;
+    
+}
+
+
